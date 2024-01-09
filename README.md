@@ -68,34 +68,45 @@ In this tutorial we are going to
   <ul>
     <li>Go back to DC-1 and change mainframe’s record address to 8.8.8.8</li>
     <li>Go back to Client-1 and ping “mainframe” again. Observe that it still pings the old address</li>
-    <li>Observe the local dns cache (ipconfig /displaydns)</li>
+    <li>Observe the local dns cache (ipconfig /displaydns) in CMD as an admin</li>
     <li>Flush the DNS cache (ipconfig /flushdns). Observe that the cache is empty</li>
     <li>Attempt to ping “mainframe” again. Observe the address of the new record is showing up</li>
     </ul>
 </p>
 
+![image](https://github.com/DevinWilliamsIT/azure-network-protocols/assets/155914712/be2b322e-8474-4469-9f73-c9d22443fa06)
 
+![image](https://github.com/DevinWilliamsIT/azure-network-protocols/assets/155914712/4acb2ddd-852c-4dfd-a861-0f21d7fe5209)
 
+![image](https://github.com/DevinWilliamsIT/azure-network-protocols/assets/155914712/2e9a8f6a-df25-478c-b348-0ee0a638c514)
 
+![image](https://github.com/DevinWilliamsIT/azure-network-protocols/assets/155914712/0397b31b-92ee-49e1-bfa7-57af03021dfc)
 
-
-
-
+![image](https://github.com/DevinWilliamsIT/azure-network-protocols/assets/155914712/cf4be98c-c19c-4e94-b608-68e3ffccfcfb)
 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  3. Next we'll do a CNAME record exercise
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+<ul>
+  <li>Go back to DC-1 and create a CNAME record that points the host “search” to “www.google.com”</li>
+  <li>Go back to Client-1 and attempt to ping “search”, observe the results of the CNAME record</li>
+  <li>On Client-1, nslookup “search”, observe the results of the CNAME record</li>
+</ul>
+
+![image](https://github.com/DevinWilliamsIT/azure-network-protocols/assets/155914712/f55c3f8d-beb5-4c92-b1a1-3a381895779b)
+
+![image](https://github.com/DevinWilliamsIT/azure-network-protocols/assets/155914712/bb2e1f0c-a7ab-4ab1-b296-fba29a59821b)
+
+![image](https://github.com/DevinWilliamsIT/azure-network-protocols/assets/155914712/f0a7275a-a195-4a70-a059-22f14a39f083)
+
+![image](https://github.com/DevinWilliamsIT/azure-network-protocols/assets/155914712/56ffa1f6-853c-4c19-bd74-6cc111f7ebf2)
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  We just went over some DNS fundamentals, NICE!
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+
 <br />
+
