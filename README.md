@@ -4,12 +4,7 @@
 ![image](https://github.com/DevinWilliamsIT/azure-network-protocols/assets/155914712/92da05e4-aff4-4ff1-9023-a002ef9f195d)
 
 <h1>Building intuition for DNS</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
-
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
+<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -26,10 +21,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+In this tutorial we are going to
+<ul>
+  <li>Inspect DNS A-Records</li>
+  <li>Create some of our own A-records on the server and observe them from the client</li>
+  <li>Delete records from server and clear the client DNS cache to gain understanding</li>
+  <li>Touch on "CNAME" records</li>
+</ul>
 
 <h2>Actions and Observations</h2>
 
