@@ -3,7 +3,7 @@
 
 ![image](https://github.com/DevinWilliamsIT/azure-network-protocols/assets/155914712/92da05e4-aff4-4ff1-9023-a002ef9f195d)
 
-<h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
+<h1>Building intuition for DNS</h1>
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
